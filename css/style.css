@@ -561,7 +561,6 @@ html {
   --------------------------------------------------------------*/
   .portfolio .portfolio-item {
     margin-bottom: 30px;
-    font-family: 'Merriweather', serif;
   }
   
   .portfolio #portfolio-flters {
@@ -669,16 +668,16 @@ html {
   
   .portfolio .portfolio-wrap .portfolio-info h4 {
     font-size: 20px;
-    color: #E15758;
+    color: white;
     /* color: #122237; */
     /* color: #A51D1D; */
     /* color: #A8DADC ; */
-    font-weight: 600;
+    font-weight: 700;
   }
   
   .portfolio .portfolio-wrap .portfolio-info p {
     
-    color: #E15758;
+    color: white;
     /* color: #457B9D; */
     /* color: #A51D1D; */
     /* color: #A8DADC ; */
@@ -686,6 +685,7 @@ html {
     text-transform: uppercase;
     padding: 0;
     margin: 0;
+    font-weight: 600;
   }
   
   .portfolio .portfolio-wrap .portfolio-links {
@@ -695,7 +695,7 @@ html {
   
   .portfolio .portfolio-wrap .portfolio-links a {
     /* color: #ffffff; */
-    color: #E15758;
+    color: white;
     margin: 0 2px;
     font-size: 28px;
     display: inline-block;
@@ -717,7 +717,7 @@ html {
   
   .portfolio .portfolio-wrap:hover .portfolio-info {
     opacity: .8;
-    background-color: #eeeaea;
+    background-color: #dfdfdf;
     
     cursor: pointer;
   }
@@ -734,6 +734,11 @@ html {
    
   }
   
+  .portfolio-overlay{
+    background-color: var(--id-red);
+    border-radius: 0px 15px;
+    padding: 5px;
+  }
   
   
   /*--------------------------------------------------------------
